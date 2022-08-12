@@ -5,7 +5,7 @@ action_type: text
 description: Here is a great text about me and my site. 
 image_left: true
 images:
-- img/revoir.jpg
+- img/CopyOfunicorn-megaphone.png
 show_action_link: true
 show_social_links: true
 subtitle: Data scientist & aspiring researcher
