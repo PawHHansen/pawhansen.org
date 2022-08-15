@@ -1,5 +1,5 @@
 ---
-author: The R Markdown Team @RStudio
+author: "Paw"
 cascade:
   author: Paw
   show_author_byline: false
@@ -11,7 +11,7 @@ cascade:
     text_link_url: /blog/
 description: "Social data science, visualization, machine learning, and more."
 layout: list
-show_author_byline: true
+show_author_byline: false
 show_button_links: false
 show_post_date: true
 show_post_thumbnail: true
