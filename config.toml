@@ -1,4 +1,4 @@
-baseURL = "https://thedatapaw.netlify.app/"
+baseURL = "https://pawhansen.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Paw Hansen"
