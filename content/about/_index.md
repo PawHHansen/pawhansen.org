@@ -5,7 +5,7 @@ description: |
   Political Science PhD student and data scientist.
 show_header: true
 sidebar_left: false
-title: About Paw
+title: About me
 ---
 
 ** index doesn't contain a body, just front matter above.

@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: Here is a great text about me and my site. 
+description: I’m a data scientist and PhD student currently finishing my dissertation in Political Science at the University of Copenhagen. My research centers on welfare encounters between frontline workers and their clients. 
 image_left: true
 images:
 - img/CopyOfunicorn-megaphone.png

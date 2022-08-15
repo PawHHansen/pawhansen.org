@@ -3,7 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, I'm Paw. Good to see you. 
+  Hi, I'm Paw! Good to see you. 
 ---
 
 <!-- this is a subheadline -->

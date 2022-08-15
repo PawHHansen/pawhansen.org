@@ -6,7 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  At the moment, I am writing up the final parts of my PhD dissertation in Political Science. When the baby is sleeping, I blog about data science.  
+  At the moment, I am writing up the final parts of my PhD dissertation in Political Science. When my baby is sleeping, I blog about data science.  
 
 show_outro: false
 outro: |
