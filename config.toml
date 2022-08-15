@@ -1,7 +1,7 @@
 baseURL = "https://thedatapaw.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "thedatapaw"
+title = "Paw Hansen"
 author = "Paw Hansen"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "Paw Hansen"
   orgLocal = ""
-  description = "Aspiring researcher"
+  description = "A social data science blog."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -43,7 +43,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = ""
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -61,18 +61,18 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = ""
-  customheadingFontFamily = ""
+  customtextFontFamily = "Atkinson Hyperlegible"
+  customheadingFontFamily = "Metropolis"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
-  textFontFamily = "Atkinson Hyperlegible"
-  headingFontFamily = "Metropolis"
+  textFontFamily = "sans-serif"
+  headingFontFamily = "sans-serif"
 
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = false
-    repo_name = "apreshill/apero"
-    issue_term = "pathname" # url, pathname, or title
+    repo_name = "PawHHansen/pawhansen.com"
+    issue_term = "title" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
 
