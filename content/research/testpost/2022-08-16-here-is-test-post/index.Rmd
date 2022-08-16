@@ -1,0 +1,31 @@
+---
+title: Here is test post
+author: Paw Hansen
+date: '2022-08-16'
+slug: []
+categories:
+  - R
+tags:
+  - frontline workers
+subtitle: ''
+excerpt: ''
+draft: yes
+series: null
+layout: single
+editor_options: 
+  chunk_output_type: console
+---
+
+Hello. This is a test post. 
+
+```{r, message = F, warning = F, fig.cap="Here, I am testing how to make a figure caption."}
+library(tidyverse)
+theme_set(theme_minimal())
+data("mtcars")
+
+mtcars %>% 
+  ggplot(aes(cyl, mpg)) + 
+  geom_boxplot(aes(color = as.factor(cyl)))
+
+```
+
