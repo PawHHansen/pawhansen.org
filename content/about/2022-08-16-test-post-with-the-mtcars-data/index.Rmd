@@ -1,5 +1,5 @@
 ---
-title: Here is test post
+title: Test post with the mtcars data
 author: Paw Hansen
 date: '2022-08-16'
 slug: []
@@ -16,11 +16,8 @@ editor_options:
   chunk_output_type: console
 ---
 
-Hello. This is a test post. 
-
-```{r, message = F, warning = F, fig.cap="Here, I am testing how to make a figure caption."}
+```{r, message=F, warning = F}
 library(tidyverse)
-theme_set(theme_minimal())
 data("mtcars")
 
 mtcars %>% 
