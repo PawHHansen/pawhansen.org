@@ -71,7 +71,7 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = false
-    repo_name = "PawHHansen/pawhansen.com"
+    repo_name = "PawHHansen/pawhansen.org.git"
     issue_term = "title" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
