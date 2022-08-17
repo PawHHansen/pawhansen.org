@@ -1,25 +1,21 @@
 ---
-title: Rule bending among caseworkers
+title: New version of caseworkers analysis
 author: Paw Hansen
 date: '2022-08-17'
 slug: []
-categories: []
+categories: ["frontline work"]
 tags: []
 subtitle: 'When and why do caseworkers bend the rules in favor of their clients?'
-excerpt: 'When and why do caseworkers bend the rules in favor of their clients?'
-date_end: '2022-08-17T13:33:08+02:00'
-location: Online
+excerpt: ''
 draft: yes
-series: ~
+series: null
 layout: single
-links:
-  - icon: door-open
-    icon_pack: fas
-    name: website
-    url: /
+editor_options: 
+  chunk_output_type: console
 ---
 
 ### Abstract
+
 When facing a disobedient client, caseworkers are often required to impose sanctions. However, even when sanctions are explicitly required by law, research shows that caseworkers may turn a blind eye. 
 
 Why is that? 
@@ -30,5 +26,7 @@ Drawing from a novel conjoint experiment among Danish unemployment caseworkers (
 
 Our findings reveal a paradox. Although welfare usually targets clients in need, avoiding welfare sanctions seems based on clients’ resources. Consequently, caseworkers’ rule-bending means that ‘the winners take it all’ since the more resourceful clients are also the ones who can get away with disobedience. 
 
-This is the key figure from the paper. 
-![Coefficient plot of effects](images/featured.jpg)
+This is the key figure from the paper.
+
+![Dot and whisker plot](images/featured.jpg)
+
