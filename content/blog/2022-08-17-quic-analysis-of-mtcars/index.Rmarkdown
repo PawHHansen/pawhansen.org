@@ -3,10 +3,8 @@ title: Quick analysis of mtcars
 author: Paw Hansen
 date: '2022-08-17'
 slug: []
-categories:
-  - R
-tags:
-  - style
+categories: ["Data science"] 
+tags: []
 subtitle: 'Here is my subtitle'
 excerpt: ''
 draft: yes
@@ -16,18 +14,20 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r}
-library(tidyverse)
-theme_set(theme_minimal())
+```{r, echo=F, message=F}
+library(knitr)
 knitr::opts_chunk$set(cache = TRUE, cache.lazy = FALSE, warning = FALSE, 
                       message = FALSE, echo = TRUE, dpi = 180,
                       fig.width = 7, fig.height = 6)
+
+library(tidyverse)
+theme_set(theme_minimal())
 
 data("mtcars")
 
 ```
 
-Here is a quicki test of what a blog post could look like. 
+Here is a quick test of what a blog post could look like. 
 
 ```{r, fig.cap="Here is a cool figure from the mtcvars data", fig.subcap= "Here is a subcaption"}
 mtcars %>% 

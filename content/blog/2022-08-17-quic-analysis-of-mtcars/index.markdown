@@ -3,10 +3,8 @@ title: Quick analysis of mtcars
 author: Paw Hansen
 date: '2022-08-17'
 slug: []
-categories:
-  - R
-tags:
-  - style
+categories: ["Data science"] 
+tags: []
 subtitle: 'Here is my subtitle'
 excerpt: ''
 draft: yes
@@ -17,31 +15,8 @@ editor_options:
 ---
 
 
-```r
-library(tidyverse)
-```
 
-```
-## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-## ✔ ggplot2 3.3.6     ✔ purrr   0.3.4
-## ✔ tibble  3.1.8     ✔ dplyr   1.0.9
-## ✔ tidyr   1.2.0     ✔ stringr 1.4.0
-## ✔ readr   2.1.2     ✔ forcats 0.5.1
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter() masks stats::filter()
-## ✖ dplyr::lag()    masks stats::lag()
-```
-
-```r
-theme_set(theme_minimal())
-knitr::opts_chunk$set(cache = TRUE, cache.lazy = FALSE, warning = FALSE, 
-                      message = FALSE, echo = TRUE, dpi = 180,
-                      fig.width = 7, fig.height = 6)
-
-data("mtcars")
-```
-
-Here is a quicki test of what a blog post could look like. 
+Here is a quick test of what a blog post could look like. 
 
 
 ```r
