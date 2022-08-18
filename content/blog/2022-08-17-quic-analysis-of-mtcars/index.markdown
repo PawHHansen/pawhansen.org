@@ -36,7 +36,7 @@ mtcars %>%
 ```
 
 <div class="figure">
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" alt="Here is a cool figure from the mtcvars data" width="1260" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" alt="Here is a cool figure from the mtcvars data" width="1440" />
 <p class="caption">Figure 1: Here is a cool figure from the mtcvars data</p>
 </div>
 
