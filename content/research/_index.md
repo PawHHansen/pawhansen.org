@@ -1,7 +1,7 @@
 ---
 title: Research
 description: |
-  Research I am currently working on have recently finished. 
+  Research I am currently working on or have recently finished. 
 author: "Paw Hansen"
 show_post_thumbnail: true
 thumbnail_left: true
