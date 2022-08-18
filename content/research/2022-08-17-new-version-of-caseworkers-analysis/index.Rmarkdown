@@ -6,7 +6,7 @@ slug: []
 categories: ["frontline work"]
 tags: []
 subtitle: 'When and why do caseworkers bend the rules in favor of their clients?'
-excerpt: ''
+excerpt: 'When and why do caseworkers bend the rules in favor of their clients?'
 draft: no
 series: null
 layout: single

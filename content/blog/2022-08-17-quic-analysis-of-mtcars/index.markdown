@@ -7,7 +7,7 @@ categories: ["Data science"]
 tags: []
 subtitle: 'Here is my subtitle'
 excerpt: ''
-draft: yes
+draft: no
 series: null
 layout: single
 editor_options: 
