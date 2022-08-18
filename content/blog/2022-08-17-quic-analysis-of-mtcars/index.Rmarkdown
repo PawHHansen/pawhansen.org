@@ -17,7 +17,7 @@ editor_options:
 ```{r, echo=F, message=F}
 library(knitr)
 knitr::opts_chunk$set(cache = TRUE, cache.lazy = FALSE, warning = FALSE, 
-                      message = FALSE, echo = TRUE, dpi = 180,
+                      message = FALSE, echo = TRUE,
                       fig.width = 8, fig.height = 6)
 
 library(tidyverse)
@@ -40,11 +40,17 @@ Theorizing from the notion of client deservingness, we develop a theoretical acc
 
 Our findings reveal a paradox. Although welfare usually targets clients in need, avoiding welfare sanctions seems based on clients’ resources. Consequently, caseworkers’ rule-bending means that ‘the winners take it all’ since the more resourceful clients are also the ones who can get away with disobedience. 
 
-```{r, fig.cap="Here is a cool figure from the mtcvars data", fig.subcap= "Here is a subcaption"}
+```{r}
 
 mtcars %>% 
   ggplot(aes(cyl, mpg)) + 
-  geom_boxplot(aes(color = as.factor(cyl)), show.legend = F)
-
+  geom_boxplot(aes(color = as.factor(cyl)), show.legend = F, size=1) + 
+  geom_jitter(aes(color = as.factor(cyl)),  alpha = .5, size = 3) + 
+  scale_color_viridis_d() + 
+  labs(title = "Miles per gallon for different cylinders",
+    x = "Cylinders",
+       y = "Miles per gallon",
+       color = "Number of cylinders") + 
+  theme(legend.position = "bottom")
 ```
 

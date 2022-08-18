@@ -32,11 +32,15 @@ Our findings reveal a paradox. Although welfare usually targets clients in need,
 ```r
 mtcars %>% 
   ggplot(aes(cyl, mpg)) + 
-  geom_boxplot(aes(color = as.factor(cyl)), show.legend = F)
+  geom_boxplot(aes(color = as.factor(cyl)), show.legend = F, size=1) + 
+  geom_jitter(aes(color = as.factor(cyl)),  alpha = .5, size = 3) + 
+  scale_color_viridis_d() + 
+  labs(title = "Miles per gallon for different cylinders",
+    x = "Cylinders",
+       y = "Miles per gallon",
+       color = "Number of cylinders") + 
+  theme(legend.position = "bottom")
 ```
 
-<div class="figure">
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" alt="Here is a cool figure from the mtcvars data" width="1440" />
-<p class="caption">Figure 1: Here is a cool figure from the mtcvars data</p>
-</div>
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
