@@ -2,7 +2,7 @@
 cascade:
   headless: true
 description: |
-  Political Science PhD student and data scientist.
+  Political Science PhD Candidate and data scientist.
 show_header: true
 sidebar_left: false
 title: About me

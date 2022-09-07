@@ -1,0 +1,98 @@
+---
+title: "Using simulation for model validation"
+author: Paw Hansen
+date: "`r Sys.Date()`"
+slug: []
+categories:
+  - statistical analysis
+tags:
+  - simulation
+subtitle: ''
+excerpt: "You've built a model but does it fit the data?"
+draft: yes
+series: null
+layout: single
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=F}
+
+library(knitr)
+knitr::opts_chunk$set(cache = TRUE, cache.lazy = FALSE, warning = FALSE, 
+                      message = FALSE, echo = TRUE,
+                      fig.width = 7, fig.height = 6)
+library(tidyverse)
+library(broom)
+
+```
+
+```{r}
+
+data(gapminder, package = "gapminder")
+gapminder %>% 
+  head()
+
+```
+
+### Create a model
+```{r}
+
+fit <- lm(lifeExp ~ gdpPercap, data = gapminder)
+tidy(fit) %>% 
+  mutate_if(is.numeric, round, 3) 
+
+```
+
+### Simulate replicated data from the model
+
+```{r}
+X <- model.matrix(fit)
+n_sims <- 1000
+n <- nrow(gapminder)
+
+y_repl <- array(NA, c(n_sims, n))
+
+for (s in 1:n_sims) {
+  y_hat <- X %*% coef(fit)
+  y_repl[s, ] <- rnorm(n, 
+                  mean = y_hat,
+                  sd = sigma(fit)) 
+  
+}
+
+dim(y_repl)
+
+y_repl <- y_repl %>% 
+  as_tibble() %>% 
+  slice_sample(n = 20) 
+
+y_repl <- y_repl %>% 
+t() %>% 
+  as_tibble() %>% 
+  pivot_longer(cols = everything(),
+               names_to = "dataset_number",
+               values_to = "value") 
+      
+y_repl %>% 
+  group_by(dataset_number) %>% 
+  summarize(n = n())
+```
+
+### Compare replications to the original data
+
+```{r}
+
+y_repl %>% 
+  ggplot(aes(value)) + 
+  geom_density(aes(group = dataset_number), alpha = .2, color = "lightblue") + 
+  geom_density(data = gapminder, aes(lifeExp), color = "black") + 
+  labs(title = "Observed data and 20 replications",
+       x = "Life expectancy (years)",
+       y = NULL) + 
+    theme_minimal() + 
+  theme(axis.ticks.y = element_blank(),
+        axis.text.y = element_blank())
+
+```
+
