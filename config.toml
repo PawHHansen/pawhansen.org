@@ -1,4 +1,4 @@
-baseURL = "http://www.pawhansen.org/"
+baseURL = "https://www.pawhansen.org/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Paw Hansen"
