@@ -27,11 +27,13 @@ Here is the abstract from the paper:
 
 > Why so? This study asks how certain clients can merit themselves to avoid sanctioning.
 
-> Theorizing from the notion of client deservingness, we develop a theoretical account of how certain client attributes cause frontline workers to bend the rules. Drawing from a novel conjoint experiment among Danish unemployment caseworkers (n = 407 with 1,210 observations), we show how caseworkers tend to favor stronger clients when bending the rules in clients’ favor. Clients who appear motivated, who have not been sanctioned in the past, and who have more past job experience are all less likely to be sanctioned.
+> Theorizing from the notion of client deservingness, we develop a theoretical account of how certain client attributes cause frontline workers to bend the rules. Drawing from a novel conjoint experiment among Danish unemployment caseworkers (n = 407 with 1,210 observations), we show how caseworkers tend to favor stronger clients when bending the rules in clients’ favor. 
+
+> Clients who appear motivated, who have not been sanctioned in the past, and who have more past job experience are all less likely to be sanctioned.
 
 > Our findings reveal a paradox: Although welfare usually targets clients in need, avoiding welfare sanctions seems based on client resources. Consequently, caseworker rule-bending can have unintended distributional consequences since stronger clients are those who can get away with disobedience.
 
-And here are the results of the conjoint experiment:
+And here is key figure from the paper: 
 
 ![Dot and whisker plot](images/featured.jpg)
 

@@ -2,7 +2,7 @@
 cascade:
   headless: true
 description: |
-  Political Science PhD Candidate and data scientist.
+  Behavioral scientist. PhD Candidate in Political Science. 
 show_header: true
 sidebar_left: false
 title: About me
