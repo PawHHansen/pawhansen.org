@@ -1,7 +1,7 @@
 ---
-title: New version of caseworkers analysis
+title: Rule bending on the frontlines of public service delivery
 author: Paw Hansen
-date: '2022-08-17'
+date: '2022-10-19'
 slug: []
 categories: ["frontline work"]
 tags: []
@@ -10,6 +10,11 @@ excerpt: 'When and why do caseworkers bend the rules in favor of their clients?'
 draft: no
 series: null
 layout: single
+links:
+- icon: newspaper
+  icon_pack: far
+  name: preprint
+  url: "https://pawhansen.org/preprints/preprint1.pdf"
 editor_options: 
   chunk_output_type: console
 ---
@@ -20,7 +25,7 @@ When facing a disobedient client, caseworkers are often required to impose sanct
 
 Why is that? 
 
-In this study, we ask how certain clients can merit themselves to avoid sanctioning. Theorizing from the notion of client deservingness, we develop a theoretical account of how certain client attributes cause frontline workers to bend the rules. 
+In this study, we ask how certain clients can merit themselves to avoid sanctioning. Theorizing from the notion of client deservingness, we develop a theoretical account of how certain client attributes cause frontline workers to bend the rules.
 
 Drawing from a novel conjoint experiment among Danish unemployment caseworkers (n = 407 with 1,210 observations), we show that caseworkers tend to favor stronger clients when bending the rules in clients’ favor. Clients who appear motivated, who have not been sanctioned in the past, and who have more previous job experience are all less likely to be sanctioned. 
 
